@@ -1,0 +1,102 @@
+  1  cd /e/
+    2  ls
+    3  ls -a
+    4  cd containerIntro
+    5  ls
+    6  cat Vagrantfile
+    7  logout
+    8  ls
+    9  mkdir project
+   10  cd /f/devopsbootcamp
+   11  clear
+   12  cd /d/Devopskk
+   13  ls
+   14  mkdir project
+   15  ls
+   16  cd project
+   17  ls
+   18  cd ..
+   19  cd history
+   20  history
+   21  cd project
+   22  git init
+   23  ls -a
+   24  ls .git
+   25  touch name.txt
+   26  ls
+   27  git status
+   28  git add names.txt
+   29  git add name.txt
+   30  git status
+   31  git commit -m "names.txt file added"
+   32  git commit -m "name.txt file added"
+   33  cd /d/
+   34  ls
+   35  cd Devopskk
+   36  ls
+   37  ls -a
+   38  cd project
+   39  ls
+   40  cat name.txt
+   41  git add names.txt
+   42  git add name.txt
+   43  git status
+   44  git commit -m
+   45  git commit
+   46  git config
+   47  git config --global user.name "edtagit"
+   48  git config --global user.email tk9pby@gmail.com
+   49  git config --list
+   50  pwd
+   51  cd /d/
+   52  cd Devopskk
+   53  ls
+   54  cd project
+   55  ls
+   56  git add name.txt
+   57  git status
+   58  git commit -m "name.txt file added"
+   59  git status
+   60  vim name.txt
+   61  cat name.txt
+   62  git status
+   63  git add .
+   64  git status
+   65  git restore -- staged name.txt
+   66  git restore --staged name.txt
+   67  git status
+   68  git add name.txt
+   69  git status
+   70  git commit -m "name.txt file will be changed"
+   71  git log
+   72  rm -rf name.txt
+   73  git status
+   74  git add name.txt
+   75  git add .
+   76  git commit -m "name.txt removed"
+   77  rm -rf name.txt
+   78  git status
+   79  git add .
+   80  git commit -m "name.txt removed"
+   81  git log
+   82  git reset 4aa4a70428b43b032dc942671f65c2909f339908
+   83  git log
+   84  git add .
+   85  git status
+   86  touch surnames.txt
+   87  git add .
+   88  git status
+   89  vi surnamess.txt
+   90  touch animechar.txt
+   91  git add .
+   92  git status
+   93  git stash
+   94  git status
+   95  git log
+   96  cat names.txt
+   97  cat name.txt
+   98  git stash pop
+   99  git add .
+  100  git stash
+  101  git stash clear
+  102  git status
